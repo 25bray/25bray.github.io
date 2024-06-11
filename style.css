@@ -1,13 +1,15 @@
 body {
     background: linear-gradient(90deg, rgb(11, 73, 155), rgb(0, 95, 219), rgb(0, 33, 77));
     color: rgb(225, 225, 225);
-
+    font-family: sans-serif;
 }
 
 a {
     text-decoration: none;
-    font-family: sans-serif;
     font-weight: 200;
     color:rgb(225, 225, 225);
     ;
+}
+h1 {
+    text-align: center;
 }
