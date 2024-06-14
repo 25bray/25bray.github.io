@@ -8,10 +8,6 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="favicon.ico" type="epilepsy.jpg">
     <style>
-        a {
-            color: #333;
-            font-family: sans-serif;
-        }
 
         body {
             background-color: rgb(114, 180, 241);
@@ -24,25 +20,45 @@
             padding-top: 12px;
             padding-bottom: 20px;
         }
+
         .opening {
             width: 95%;
             margin-left: auto;
             margin-right: auto;
             font-family: Arial;
         }
+
         #list {
             margin-left: 5%;
         }
+
         #list li {
             margin-bottom: 5px;
         }
+
+        div {
+            margin-bottom: 30px;
+        }
+
+
         #list li a {
+            color: #333;
             text-decoration: none;
             font-size: 18px;
             font-weight: bold;
+            font-family: sans-serif;
+            /* Optional: removes underline */
         }
-        div {
-            margin-bottom: 30px;
+
+        /* Hover state */
+        #list li a:hover {
+            color: #007bff;
+        }
+
+        /* Active state (when link is clicked) */
+        #list li a:active {
+            color: #007bff;
+
         }
     </style>
 </head>
@@ -51,7 +67,7 @@
     <header>
         <nav>
             <ul>
-                <li><a href="epilepsy.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="famous.html">Famous Epileptics</a></li>
             </ul>
@@ -60,7 +76,8 @@
     <main>
         <h1>Famous Epileptics</h1>
         <section>
-            <p class="opening">From pioneering scientists to iconic artists and influential leaders, these remarkable individuals have
+            <p class="opening">From pioneering scientists to iconic artists and influential leaders, these remarkable
+                individuals have
                 left
                 an indelible mark on history, inspiring countless others with their resilience, creativity, and
                 determination. Join us as we explore their stories, highlighting their triumphs and contributions to the
